@@ -61,7 +61,7 @@ fclose(fid);
 %     view(2)
 % end 
 
-system('../perseusLin cubtop cubgrid.txt output');
+system('./perseusLin cubtop cubgrid.txt output');
 
 % if you want to look at the PDs -- put an argument in function call
 if nargin > 0
